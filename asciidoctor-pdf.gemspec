@@ -39,12 +39,12 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'ttfunk', ['~> 1.5.0'], ['>= 1.5.1']
   # NOTE must use prawn-table from master branch (defined in Gemfile) for full functionality
   s.add_runtime_dependency 'prawn-table', '~> 0.2.0'
-  s.add_runtime_dependency 'prawn-templates', '~> 0.1.0'
+  # s.add_runtime_dependency 'prawn-templates', '~> 0.1.0'
   s.add_runtime_dependency 'prawn-svg', '~> 0.31.0'
   s.add_runtime_dependency 'prawn-icon', '~> 2.5.0'
   s.add_runtime_dependency 'safe_yaml', '~> 1.0.0'
   s.add_runtime_dependency 'thread_safe', '~> 0.3.0'
-  s.add_runtime_dependency 'concurrent-ruby', '~> 1.1.0'
+  s.add_runtime_dependency 'concurrent-ruby', '~> 1.1'
   s.add_runtime_dependency 'treetop', '~> 1.6.0'
 
   s.add_development_dependency 'rake', '~> 13.0.0'
