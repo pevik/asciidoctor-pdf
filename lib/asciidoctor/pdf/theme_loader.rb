@@ -10,7 +10,7 @@ module Asciidoctor
       include ::Asciidoctor::PDF::Measurements
       include ::Asciidoctor::Logging
 
-      DataDir = ::File.absolute_path %(#{__dir__}/../../../data)
+      DataDir = '/usr/share/ruby-asciidoctor-pdf/data'
       ThemesDir = ::File.join DataDir, 'themes'
       FontsDir = ::File.join DataDir, 'fonts'
       BaseThemePath = ::File.join ThemesDir, 'base-theme.yml'
